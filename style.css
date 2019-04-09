@@ -1,0 +1,102 @@
+/* Homework 1*/
+
+.num{
+	background: black;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+	border:3px solid black;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.num:hover{
+	color: gray;
+}
+.work-heading{
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 40px;
+}
+.active{
+	background: white;
+	color: black;
+}
+
+/* Homework 2 */
+.wrapper{
+	width: 500px;
+}
+.menuContent{
+	width: 100px;
+	height: 90px;
+	color: white;
+	background: #98927C;
+	padding: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    position: relative;
+    justify-content: center;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-left: 52vh solid #fff;
+    border-bottom: 52px solid transparent;
+}
+.menuInner{
+	width: 500px;
+    display: flex;justify-content: center;
+    flex-wrap: wrap;
+}
+.innerContent{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	font-size: 15px;
+	opacity: 0;
+}
+.menuInner{
+	position: relative;
+}
+.innerContent h1{
+	font-size: 20px;
+}
+.active1{
+	background: #F3EDE2;
+	opacity: 1;
+	color: black;
+}
+
+/* Homework 3 */
+
+.color{
+	width: 15px;
+	height: 100px;
+	cursor: pointer;
+}
+.red{
+	background: #f06868;
+}
+.orange{
+	background: #fab57a;
+}
+.green{
+	background: #edf798;
+}
+.blue{
+	background: #80d6ff;
+}
+.colorsContent{
+	width: 100%;
+	height: 400px;
+	color: white;
+	padding: 30px;
+	font-size: 20px;
+}
+
